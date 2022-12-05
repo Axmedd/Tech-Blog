@@ -8,10 +8,11 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
-// This is the port
+//Adding Port and App
 const PORT = process.env.PORT || 3001;
 
-// Setting up the Handlebars.js engine along with custom helpers
+//
+// Seting up Handlebars.js engine alongside custom helpers
 const hbs = exphbs.create({ helpers });
 
 const sess = {
@@ -26,8 +27,7 @@ const sess = {
 
 app.use(session(sess));
 
-//
-// This Will Inform Express.js on which template engine to use
+// Informing Express.js on which template engine it should use
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 

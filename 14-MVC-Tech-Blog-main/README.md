@@ -1,11 +1,10 @@
 # 14-MVC-Tech-Blog
-
-Due Date:P 5/1/2021 @ 11:59 PM
 Homework #14: Model-View-Controller (MVC): Tech Blog
 
 # Objectives
 
 The primary objectives of this exercise were to demonstrate the following:
+
 
 - practical implementation using express and routing (get, post, put, delete)
 - practical implementation using Sequalize
@@ -26,7 +25,8 @@ This exercise requires the following npm modules
 
 | Description       | Link                                         |
 | ----------------- | -------------------------------------------- |
-| github repo       | https://github.com/jonesjsc/14-MVC-Tech-Blog |
+| github repo       | https://github.com/Axmedd/Tech-Blog |
+| heroku deployment | https://radiant-forest-98956.herokuapp.com/
         |
 
 # Routes
